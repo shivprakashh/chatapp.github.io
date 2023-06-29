@@ -1,0 +1,61 @@
+.big{
+    width:100vw;
+    height:100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conn{
+    padding:50px;
+  border-radius: 9px;
+  background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.but{
+  padding:20px 30px;
+  border-radius: 9px;
+  background-color: red;
+  color:white;
+  cursor: pointer;
+}
+.but:hover{
+  background-color: green !important;
+  color:black
+}
+.in{
+    width:200px;
+    padding:15px 20px;
+  border:none;
+  border-radius: 9px;
+    margin-top:10px;
+    box-shadow: 0px 0px 8px 2px rgb(199, 197, 197);
+}
+.butt{
+    padding:15px 30px;
+    background-color: black;
+    border-radius: 9px;
+    color: white;
+}
+.butt:hover{
+   cursor: pointer;
+   background-color: red;
+   
+    color:white;
+}
+.modal{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
